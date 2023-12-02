@@ -14,7 +14,7 @@ export const fetchImageGeneration = async(payload: FetchPayload) => {
     method: payload.method || 'GET',
     body: payload.method === 'POST' ? JSON.stringify(payload.body || {}) : undefined,
   }
-  let fetchUrl = 'https://api.replicate.com/v1/predictions'
+  let fetchUrl = 'https://openrouter.ai/api/v1/chat/completions'
   if (payload.predictionId)
     fetchUrl += `/${payload.predictionId}`
   return fetch(fetchUrl, initOptions)
