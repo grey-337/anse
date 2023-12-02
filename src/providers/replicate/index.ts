@@ -17,7 +17,7 @@ const providerReplicate = () => {
       {
         id: 'gpt3.5',
         type: 'openai/gpt-3.5-turbo-1106',
-        name: 'openai/gpt-3.5-turbo-1106',
+        name: 'gpt3.5 turbo',
         settings: [],
       },
       {
