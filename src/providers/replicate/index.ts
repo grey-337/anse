@@ -19,25 +19,7 @@ const providerReplicate = () => {
         type: 'openai/gpt-3.5-turbo-1106',
         name: 'gpt3.5 turbo',
         settings: [],
-      },
-      {
-        id: 'stable-diffusion-v1',
-        type: 'image_generation',
-        name: 'Stable Diffusion 1.5',
-        settings: [],
-      },
-      {
-        id: 'waifu-diffusion',
-        type: 'image_generation',
-        name: 'Waifu Diffusion',
-        settings: [],
-      },
-      {
-        id: 'sdxl',
-        type: 'image_generation',
-        name: 'sdxl',
-        settings: [],
-      },
+      }
     ],
     supportCallMethod: 'backend',
     handlePrompt,
