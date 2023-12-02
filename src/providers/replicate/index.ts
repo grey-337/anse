@@ -15,9 +15,9 @@ const providerReplicate = () => {
     ],
     bots: [
       {
-        id: 'stable-diffusion',
-        type: 'image_generation',
-        name: 'Stable Diffusion 2.1',
+        id: 'gpt3.5',
+        type: 'openai/gpt-3.5-turbo-1106',
+        name: 'openai/gpt-3.5-turbo-1106',
         settings: [],
       },
       {
